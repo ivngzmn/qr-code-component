@@ -31,7 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [QR code component](https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-css-grid-v8SfuufQV1)
 - Live Site URL: [GH Pages](https://ivngzmn.github.io/qr-code-component/)
 
 ## My process
