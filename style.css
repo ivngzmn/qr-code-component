@@ -74,13 +74,16 @@ body {
   height: 100dvh;
 }
 
+main {
+  grid-area: 1 / 1;
+}
+
 .container {
   background-color: var(--white);
   border-radius: 20px;
   padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
   max-height: 499px;
   max-width: 320px;
-  grid-area: 1 / 1;
 }
 
 .container img {
@@ -97,11 +100,14 @@ section .content {
 /* 
 Attribution
 */
-.attribution {
+footer {
+  grid-area: 1 / 1;
+  align-self: end;
+}
+
+section.attribution {
   font-size: 11px;
   text-align: center;
-  align-self: end;
-  grid-area: 1 / 1;
   padding-bottom: 2rem;
 }
 .attribution a {
