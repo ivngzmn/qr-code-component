@@ -1,0 +1,109 @@
+:root {
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+
+  --space-500: 40px;
+  --space-300: 24px;
+  --space-200: 16px;
+}
+
+/*
+Colors from style guide
+*/
+.slate-900 {
+  color: var(--slate-900);
+}
+
+.slate-500 {
+  color: var(--slate-500);
+}
+
+.slate-300 {
+  color: var(--slate-300);
+}
+
+.white {
+  color: var(--white);
+}
+
+/*
+Typography
+*/
+.outfit-regular {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-bold {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: var(--slate-900);
+  text-align: center;
+  padding-bottom: var(--space-200);
+}
+
+p {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--slate-500);
+}
+
+/*
+Spacing
+*/
+
+body {
+  background-color: var(--slate-300);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100dvh;
+}
+
+.container {
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
+  max-height: 499px;
+  max-width: 320px;
+  grid-area: 1 / 1;
+}
+
+.container img {
+  border-radius: 10px;
+  max-height: 288px;
+  max-width: 288px;
+  margin-bottom: var(--space-300);
+}
+
+section .content {
+  padding: 0 var(--space-200);
+}
+
+/* 
+Attribution
+*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  align-self: end;
+  grid-area: 1 / 1;
+  padding-bottom: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
